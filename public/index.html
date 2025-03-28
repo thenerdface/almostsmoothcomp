@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALLIANCE CHAMPIONSHIP 2025</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="manifest" href="images/site.webmanifest.html">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- jQuery -->
+    <script src="/libs/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Moment.js -->
+    <script src="/libs/moment/min/moment.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Кастомные стили и скрипты -->
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/countdown.js"></script>
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js@id=G-SDMC3Y2D42"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SDMC3Y2D42');
+    </script>
+
+</head>
+<body class="bg">
+<nav class="navbar navbar-expand-lg navbar-dark index-navbar">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center custom-navbar-ul-background">
+                <li class="nav-item active">
+                    <a class="nav-link nav-bar-font" aria-current="page" href="">ALLIANCE CHAMPIONSHIP</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle nav-bar-font" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Информация о турнире
+                    </a>
+                    <ul class="dropdown-menu index-custom-dropdown" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item index-custom-dropdown-item" href="">Оплата взноса и страховка</a></li>
+                       <li><a class="dropdown-item index-custom-dropdown-item" href="">Условия допуска</a></li>
+                        <li><a class="dropdown-item index-custom-dropdown-item" href=''>Скачать регламент</a></li>
+                        <li><a class="dropdown-item index-custom-dropdown-item" href=''>Список участников</a></li>
+      </ul>
+                </li>
+               <li class="nav-item">
+                    <a class="nav-link nav-bar-font" href="">Правила</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-bar-font" href="">Регламент турнира</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="counter text-center">
+        <div>
+            <h1>
+                ALLIANCE CHAMPIONSHIP 2025
+            </h1>
+            <h2>
+                Махачкала, Дворец спорта «Автодор»
+            </h2>
+            <h2>  24-25 Мая, 2025</h2>
+            <div class="justify-content-center">
+                <button type="button" class="btn buy-btn">
+                    Зарегистрироваться
+                  </button>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-around">
+    <div>
+        <div>
+            <h1 id="days" class="counter-text">313</h1>
+        </div>
+        <div>
+            <h1 id="days-label" class="counter-lead">Дней</h1>
+        </div>
+    </div>
+    <div><h1 class="counter-text">:</h1></div>
+    <div>
+        <div>
+            <h1 id="hours" class="counter-text">21</h1>
+        </div>
+        <div>
+            <h1 id="hours-label" class="counter-lead">Часов</h1>
+        </div>
+    </div>
+    <div><h1 class="counter-text">:</h1></div>
+    <div>
+        <div>
+            <h1 id="minutes" class="counter-text">05</h1>
+        </div>
+        <div>
+            <h1 id="minutes-label" class="counter-lead">Минут</h1>
+        </div>
+    </div>
+    <div><h1 class="counter-text">:</h1></div>
+    <div>
+        <div>
+            <h1 id="seconds" class="counter-text">05</h1>
+        </div>
+        <div>
+            <h1 id="seconds-label" class="counter-lead">Секунд</h1>
+        </div>
+    </div>
+</div>
+
+        <div class="d-flex justify-content-center mt-3 mt-sm-1">
+             <a target="_blank" class="btn merch-btn" href="">
+                <img src="images/миркато.png" alt="Mircatokino Logo" class=" mircatokino">
+            </a>
+            <div class=""><a target="_blank" class="btn merch-btn" href="">
+                <img src="images/дихард.png" alt="Diehard Logo" class="diehard">
+            </a> </div>
+            <div class=""><a target="_blank" class="btn merch-btn" href="">
+                <img src="images/архитек.png" alt="Arhitek Logo" class="arhitek">
+            </div>
+                <span class="clearfix"></span>
+        </a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,312 @@
+.weight-nav {
+    border: 1px solid #3A434F;
+    padding-right: 0;
+}
+.adcc-active {
+    background-color: #e03c26!important;
+    color: white;
+}
+.adcc-nav-link {
+    color: black
+}
+
+/*.adcc-nav-link:hover {*/
+/*    background-color: #ac2222!important;*/
+/*    color: white;*/
+/*}*/
+.adcc-active:hover {
+    background-color: #ac2222!important;
+    color: white;
+}
+.adcc-bg-color {
+    background-color: #e03c26
+}
+.nav-bar-image {
+    width: 160px;
+    height: 74px;
+}
+.nav-item:hover {
+    box-shadow: rgb(96, 11, 255) 0px -2px 0px inset;
+}
+
+.full-page-img {
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.poster-container {
+    position: relative;
+}
+.counter {
+    position: absolute;
+    z-index: 99;
+    bottom: 5%;
+    width: 100%
+}
+.hotel-jumbo {
+    position: relative;
+    z-index: 99;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background: #00000033;
+    padding-bottom: .5rem;
+    box-shadow: 0px 0px 5px 5px green;
+}
+* {
+    color: white!important;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto; /* import on every page you idiot */
+}
+.nav-bar-font {
+    border-bottom: 2px solid transparent;
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 78px;
+    margin: 0 .85em;
+    padding-left: 12px;
+    padding-right: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98),border-color .5s cubic-bezier(0.06, 0.81, 0, 0.98);
+}
+.event-btn {
+    margin-bottom: 8px;
+    float: left;
+    background-color: green;
+}
+.hotel-btn {
+    margin-bottom: 8px;
+    float: right;
+}
+.bg {
+    /* The image used */
+    background-image: url("/images/background.jpg");
+
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 66%;
+}
+.bg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, transparent 0%, black 300%),
+    linear-gradient(to left, transparent 0%, black 300%),
+    linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+/* Стили для контейнера с затемненным фоном */
+.custom-background {
+    background-color: rgba(0, 0, 0, 0.7); /* Затемнённый фон */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px; /* уменьшите значение */
+    margin-bottom: 20px; /* добавьте небольшие отступы снизу, если нужно */
+    width: auto;  /* Ограничим ширину */
+    max-width: 86%; /* Можно установить максимально возможную ширину */
+    margin-left: auto; /* Центрируем блок */
+    margin-right: auto; /* Центрируем блок */
+}
+
+
+.bzt1-bg {
+    /* The image used */
+    background-image: url("https://web.archive.org/web/20220415201007im_/http://www.adcc-official.com/images/2022 Brazil trial1.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bszt1-bg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background: linear-gradient(to right, transparent 0%, black 300%),*/
+    /*linear-gradient(to left, transparent 0%, black 300%),*/
+    /*linear-gradient(to bottom, transparent 0%, black 300%);*/
+}
+.trials-navbar {
+    background: black;
+}
+.index-navbar {
+    background: none;
+    z-index: 999;
+}
+.index-custom-dropdown {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.index-custom-dropdown-item:hover {
+    background-color: #ac2222!important;
+}
+.sticky-register-btn {
+    font-size: 20px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.ml-1 {
+    margin-left: 1em;
+}
+.img-full {
+    height: 100%;
+    width: 100%;
+}
+.counter-text {
+    font-weight: bold;
+    font-size: 8em;
+}
+.counter-lead {
+    font-size: 2em;
+    font-weight: 200;
+}
+.buy-btn {
+    background-image: linear-gradient(#5029de 0%, #4124ab 100%);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-size: 32px;
+}
+.hotel-buy-btn {
+    text-decoration: none;
+    background: black;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+.buy-tix-box {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 45%;
+    background: white;
+    padding-bottom: .5rem;
+}
+.buy-txt {
+    font-size: 1em;
+    text-shadow: #e03c26 0px 0px 10px;
+    font-style: italic;
+    margin: auto;
+}
+.hotel-txt {
+    font-size: 3em;
+    text-shadow: green 0px 0px 10px;
+    font-style: italic;
+}
+.buy-btn:hover {
+    color: rgba(255, 255, 255, 1);
+
+}
+.merch-btn {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-size: 24px;
+ /*   background: #fc8119;
+    background: linear-gradient( to left, #ef7e53, #fc8623, #ef7e53);
+*/
+}
+  /*
+.merch-btn:hover {
+    background: #fc8119;
+    background: linear-gradient( to left, #ef7344, #fc8119, #ef7344);
+}
+*/
+
+
+.mircatokino {
+    width: 103.55px;
+    height: 103.55px;
+    margin-top: 50%;
+}
+
+.diehard {
+    width: 236px;
+    height: 187px;
+}
+
+.arhitek {
+    width: 112.13px;
+    height: 89.4px;
+    margin-top: 50%;
+}
+
+.merch-btn {
+    display: inline-block;
+}
+
+@media (max-width: 768px), (max-height: 450px) {
+
+    .mircatokino {
+        width: 80px;
+        height: 80px;
+        margin-left:25px;
+    }
+
+    .diehard {
+        width: 150px;
+        height: 120px;
+    }
+
+    .arhitek {
+        width: 90px;
+        height: 70px;
+    }
+    .buy-btn {
+        font-size: 16px;
+    }
+    .buy-txt {
+        font-size: 300pt;
+    }
+    .counter-text {
+        font-size: 2em;
+    }
+    .counter-lead {
+        font-size: 1em;
+    }
+    .nav-bar-font {
+        border-bottom: 2px solid transparent;
+        color: #f9f9f9;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: normal;
+        margin: 0 .85em;
+        padding-left: 12px;
+        padding-right: 12px;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98),border-color .5s cubic-bezier(0.06, 0.81, 0, 0.98);
+    }
+    .custom-navbar-ul-background {
+        background: black;
+    }
+
+}
+
+
+
